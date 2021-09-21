@@ -2,4 +2,4 @@
 AAAR group project repository
 
 ## File info
-directory.csv - 
+directory.csv - List of schools in nz, with their info (post code, address, decile, ethnicity breakdown)
