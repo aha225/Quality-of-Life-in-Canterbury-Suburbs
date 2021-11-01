@@ -1,10 +1,10 @@
-README FILE FOR CANTERBURY AREA UNITS DATASET 
+README FILE FOR CANTERBURY AREA UNITS RELATIONAL DATASET 
 
 --------------------------------------------------------------------------------
 
 I. CONTENTS OF DATASET
 
-Area Units:          CSV file of Area Units with crash, crime, school, hospitals statistics
+Area Unit Summary:   CSV file of Area Units with crash, crime, school, hospitals statistics
 Schools:             CSV file of Canterbury Schools directory
 Hospitals:           CSV file of Canterbury Hospital directory
 Crimes:              CSV file of Crash statistics per Area Unit
@@ -199,3 +199,33 @@ Pedestrians_invovled   The total pedestrians involved in crashes that occured in
 
 Median_speed_limit     The median speed limit in the area unit based on the speed limits
                        recorded at crashes in the area unit.
+
+
+4. CRIME
+
+------------------------------------------------------------
+Variable Category                Columns   	Type
+------------------------------------------------------------
+HourOfDay                        1      	Real
+DayOfWeek       		 2      	Character
+CrimeType  		         3 		Character
+AreaUnit        		 4      	Character
+Victimisations                   5      	Real
+Year                             6      	Real 
+Month           		 7       	Real
+------------------------------------------------------------
+
+Detailed Descriptions
+
+------------------------------------------------------------
+Variable Name			Description
+------------------------------------------------------------
+
+HourOfDay			Hour of the day the crime occurred. The value range is 0 to 23.
+DayOfWeek			Day of the week the crime occurred. The value range is Mon-Sun.
+CrimeType			Broad level crime classification - ANZSOC Division of the crime.
+AreaUnit			Census Area Unit as per Statistics NZ Area Unit 2017 - Area units are non-administrative 
+				areas intermediate between meshblocks and territorial authorities.
+Victimisations			The number of people victimised due to the crime.
+Year				Year in which crime occurred.
+Month				Month in which crime occurred. The value range is 1 to 12.
