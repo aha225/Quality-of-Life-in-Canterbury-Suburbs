@@ -52,6 +52,7 @@ CanterburyHospitalsLocationsFinal.csv under the Raw Input Files folder.
 #### e) HospitalProcessingSecondary.ipynb
 
 INPUT FILES :   
+areaXY.csv (Provided in the Raw Input Files folder)  
 CanterburyHospitalsLocationsFinal.csv (Provided in the Raw Input Files folder)  
 
 OUTPUT FILES :   
