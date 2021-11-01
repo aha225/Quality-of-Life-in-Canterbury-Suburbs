@@ -21,12 +21,12 @@ II. COLUMN ATTRIBUTE FOR EACH ORBITING DATASET DESCRIPITIONS
 Variable Category                Columns   	Type
 ------------------------------------------------------------
 SCHOOL IDENTIFICATION            1-2    	Character
-CONTACT DETAILS    		           3-7    	Character
-LOCATION  		                   8-10 		Character
-POSTAL ADDRESS    		           11-15   	Character
+CONTACT DETAILS    		 3-7    	Character
+LOCATION  		         8-10 		Character
+POSTAL ADDRESS    		 11-15   	Character
 INSTITUTION INFORMATION          16-20  	Character
 REGIONAL INFORMATION             21-32  	Character - Real (Lat/Long columns)
-FUNDING INDICES  		             33-34  	Real
+FUNDING INDICES  		 33-34  	Real
 INDICATIVE ROLL INFORMATION      35-42  	Integer
 ------------------------------------------------------------
 
@@ -89,7 +89,7 @@ Gender of Students		A summary description of the gender(s) accepted by the insti
 					Junior Boys, Senior Co-Ed
 					Primary Co-Ed, Secondary Girls
 REGIONAL INFORMATION
-Territorial Authority		Territorial Authority as per Statistics NZ Territorial Authority - Territorial authorities are the second tier of local government in New Zealand, below regional councils. There are 67 territorial authorities in the Territorial Authority 2018 classification.
+Territorial Authority		Territorial Authority as per Statistics NZ Territorial Authority - Territorial authorities are the second tier of local government in New 	Zealand, below regional councils. There are 67 territorial authorities in the Territorial Authority 2018 classification.
 Regional Council		Regional Council as per Statistics NZ Regional Council - Regional councils are the top tier of local government in New Zealand. There are 16 regions in the Regional Council 2018 classification which cover every territorial authority in New Zealand, with the exception of the Chatham Islands Territory. Five regions are administered as unitary authorities, which function as both regional council and territorial authority.
 Ministry of Education Local 
 Office				Name of the local Ministry of Education office.
