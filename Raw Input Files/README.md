@@ -41,5 +41,5 @@ The following outlines the jupyter notebooks that use the files in this director
 - LegalEntitySummaryNGOHospital.csv
 
 #### HospitalProcessingSecondary.ipynb
-- areaXY
+- areaXY.csv
 - CanterburyHospitalsCoordinates.csv
