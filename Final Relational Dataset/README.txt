@@ -7,8 +7,8 @@ I. CONTENTS OF DATASET
 Area Unit Summary:   CSV file of Area Units with crash, crime, school, hospitals statistics
 Schools:             CSV file of Canterbury Schools directory
 Hospitals:           CSV file of Canterbury Hospital directory
-Crimes:              CSV file of Crash statistics per Area Unit
 Crashes:	     CSV file of Crime statistics per Area Unit
+Crimes:              CSV file of Crash statistics per Area Unit
 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
