@@ -12,6 +12,9 @@ This csv file was downloaded from https://www.educationcounts.govt.nz/directorie
 #### crash.csv
 This csv is a filtered version of the original, which was download from NZTA's open data portal: https://opendata-nzta.opendata.arcgis.com/datasets/NZTA::crash-analysis-system-cas-data-1/about. It was filtered to contain only the crashes reproted in Canterbury and that occured from 2016. The original was too big to be uploaded onto github.
 
+#### areaXY.csv
+This csv contains latitude and longitude for all the are units. It was calculated using average lat longs from the crime raw data.
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 The following outlines the jupyter notebooks that use the files in this directory.
 
@@ -21,6 +24,7 @@ The following outlines the jupyter notebooks that use the files in this director
 #### CanterburySchoolDirectoryProcessing.ipynb
 - SchoolsDirectory.csv
 
-#### CrashDataPrecessing.ipynb
+#### CrashDataProcessing.ipynb
 - crash.csv
 
+#### HospitalInitialPreprocessing.ipynb
