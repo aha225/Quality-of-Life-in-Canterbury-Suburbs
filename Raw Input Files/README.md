@@ -18,7 +18,7 @@ This csv file was downloaded from https://www.educationcounts.govt.nz/directorie
 This csv is a filtered version of the original, which was download from NZTA's open data portal: https://opendata-nzta.opendata.arcgis.com/datasets/NZTA::crash-analysis-system-cas-data-1/about. It was filtered to contain only the crashes reproted in Canterbury and that occured from 2016. The original was too big to be uploaded onto github.
 
 #### areaXY.csv
-This csv contains latitude and longitude for all the are units. It was calculated using average lat longs from the crime raw data.
+This csv contains latitude and longitude for all the area units. These were calculated using average lat longs from the raw crime data.
 
 #### CanterburyHospitalsCoordinates.csv
 This csv contains the result of HospitalInitialProcessing, but with lat longs of each hospirtal added manually, hence the inclusion in the raw files folder. We add this as it is needed to do the secondary processing for hospitals.
