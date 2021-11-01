@@ -13,49 +13,49 @@ The following instructions outline the files needed to run each notebook and the
 
 #### a) CanterburySchoolDirectoryProcessing.ipynb
 
-INPUT FILES :  
+**INPUT FILES :**  
 SchoolsDirectory.csv (Provided in the Raw Input Files folder)
 
-OUTPUT FILES :  
+**OUTPUT FILES :**  
 CanterburySchools.csv (Provided in the Final Relational Dataset folder)  
 Area Unit Schools.csv (Not provided in GitHub)
 
 #### b) CrashDataProcessing.ipynb
 
-INPUT FILES :  
+**INPUT FILES :**  
 crash.csv (Provided in the Raw Input Files folder)
 
-OUTPUT FILES :  
+**OUTPUT FILES :**  
 CanterburyCrashes.csv (Provided in the Final Relational Dataset folder)  
 crash_final.csv (Not provided in GitHub)
 
 #### c) CrimeDataProcessing.ipynb
 
-INPUT FILES :  
+**INPUT FILES :**  
 Crime2021.csv (Provided in the Raw Input Files folder)  
 
-OUTPUT FILES :  
+**OUTPUT FILES :**  
 CanterburyCrime.csv (Provided in the Final Relational Dataset folder)  
 crime_by_area.csv (Not provided in GitHub)  
 
 #### d) Hospital_Initial_PreProcessing.ipynb
 
-INPUT FILES :  
+**INPUT FILES :**  
 LegalEntitySummaryPublicHospital.csv (Provided in the Raw Input Files folder)  
 LegalEntitySummaryNGOHospital.csv (Provided in the Raw Input Files folder)  
 
-OUTPUT FILES :  
+**OUTPUT FILES :**  
 Initial_Canterbury_Hospitals.csv (Provided in the Final Relational Dataset folder)  
 *Note the latitude and longitude were mannualy added to this csv file. This new file is saved as    
 CanterburyHospitalsLocationsFinal.csv under the Raw Input Files folder.  
 
 #### e) HospitalProcessingSecondary.ipynb
 
-INPUT FILES :   
+**INPUT FILES :**   
 areaXY.csv (Provided in the Raw Input Files folder)  
 CanterburyHospitalsLocationsFinal.csv (Provided in the Raw Input Files folder)  
 
-OUTPUT FILES :   
+**OUTPUT FILES :**   
 CanterburyHospitals.csv (Provided in the Final Relational Dataset folder)  
 Closest Hospitals.csv (Not provided in GitHub)  
 
@@ -63,12 +63,12 @@ Closest Hospitals.csv (Not provided in GitHub)
 
 #### Area_Unit_Summary_Table_Creation.ipynb
 
-INPUT FILES :   
+**INPUT FILES :**   
 Area Unit Schools.csv (Output of CanterburySchoolDirectoryProcessing.ipynb)  
 crash_final.csv (Output of CanterburyCrashDataProcessing.ipynb)  
 crime_by_area.csv (Output of CanterburyCrimeDataProcessing.ipynb)  
 Closest Hospitals.csv (Output of HospitalProcessingSecondary.ipynb)  
 
-OUTPUT FILES :   
+**OUTPUT FILES :**   
 Quality of life in Canterbury suburbs.csv (Provided in the Final Relational Dataset folder)  
 
