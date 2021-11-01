@@ -5,10 +5,10 @@ This csv file was downloaded from the New Zealand police victimisation dataset. 
 September 2020 to August 2021 were downloaded. 
 https://www.police.govt.nz/about-us/publications-statistics/data-and-statistics/policedatanz/victimisation-time-and-place
 
-### PublicHospitals.csv
+#### PublicHospitals.csv
 This file is a list of public hospitals registered in New Zealand. It was downloaded from https://www.health.govt.nz/your-health/certified-providers/public-hospital, which is the ministry of health website. 
 
-### PrivateHospitals.csv
+#### PrivateHospitals.csv
 This file is a list of private hospitals registered in New Zealand. It was downloaded from https://www.health.govt.nz/your-health/certified-providers/private-hospital, which is the ministry of health website. 
 
 #### SchoolsDirectory.csv 
@@ -20,7 +20,7 @@ This csv is a filtered version of the original, which was download from NZTA's o
 #### areaXY.csv
 This csv contains latitude and longitude for all the are units. It was calculated using average lat longs from the crime raw data.
 
-#### CanterburyHospitalsLocationsFinal.csv
+#### CanterburyHospitalsCoordinates.csv
 This csv contains the result of HospitalInitialProcessing, but with lat longs of each hospirtal added manually, hence the inclusion in the raw files folder. We add this as it is needed to do the secondary processing for hospitals.
 
 
@@ -42,4 +42,4 @@ The following outlines the jupyter notebooks that use the files in this director
 
 #### HospitalProcessingSecondary.ipynb
 - areaXY
-- CanterburyHospitalsLocationsFinal.csv
+- CanterburyHospitalsCoordinates.csv
