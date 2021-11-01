@@ -13,7 +13,65 @@ Crimes:              CSV file of Crash statistics per Area Unit
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 
-II. COLUMN ATTRIBUTE FOR EACH ORBITING DATASET DESCRIPITIONS
+II. COLUMN ATTRIBUTES FOR THE AREA UNIT SUMMARY
+
+----------------------------------------------------
+Variable                      		Type 
+----------------------------------------------------
+Area_unit                     		Character
+Total_crashes                 		Integer
+Total_Crime				Integer
+Commonest_Crime				Character
+Closest_Medical_Hospital		Character
+Distance_Medical_Hospital		Double
+Closest_Childrens_Health_Hospital	Character
+Distance_Childrens_Health_Hospital	Double
+Closest_Dementia_Care_Hospital		Character
+Distance_Dementia_Care_Hospital		Double
+Closest_Geriatric_Hospital		Character
+Distance_Geriatric_Hospital		Double
+Closest_Maternity_Hospital		Character
+Distance_Maternity_Hospital		Double
+Closest_Mental_Health_Hospital		Character
+Distance_Mental_Health_Hospital		Double
+Closest_Psychogeriatric_Hospital	Character	
+Distance_Psychogeriatric_Hospital	Double	
+Closest_Surgical_Hospital		Character
+Distance_Surgical_Hospital		Double
+Average_decile				Double
+Primary					Integer
+Secondary				Integer	
+Composite				Integer	
+Other					Integer
+------------------------------------------------------------------------
+															
+These variables have the following definitions:
+
+Area_unit              		The Area of canterbury this row of data is from. Area unit is defined by Statistics New Zealand.
+
+Total_crashes          		The total crashes that were reported in the area unit.
+
+Total_Crime			The total number of crimes reported in the area unit. 
+
+Commonest_Crime	 		The most common type of crime that occured in that area unit.
+
+Closest_[type]_Hospital 	The closest hospital of the given type to the area unit.
+
+Distance_[type]_Hospital	The distance from the centre of the area unit to the nearest hospital of the given type.
+
+Average_decile			The average decile of all the schools in the area.
+
+Primary				Number of primary schools in the area unit.
+
+Secondary			Number of secondary schools in the area unit.
+
+Composite			Number of composite schools in the area unit.
+
+Other 				Number of other schools in the area unit.
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+III. COLUMN ATTRIBUTE FOR EACH ORBITING DATASET DESCRIPITIONS
 
 1. SCHOOLS
 
