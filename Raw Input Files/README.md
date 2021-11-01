@@ -5,8 +5,16 @@ This csv file was downloaded from the New Zealand police victimisation dataset. 
 September 2020 to August 2021 were downloaded. 
 https://www.police.govt.nz/about-us/publications-statistics/data-and-statistics/policedatanz/victimisation-time-and-place
 
+
+#### SchoolsDirectory.csv 
+This csv file was downloaded from https://www.educationcounts.govt.nz/directories/list-of-nz-schools, a publicly available directory of all schools in New Zealand as of September2021
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 The following outlines the jupyter notebooks that use the files in this directory.
 
 #### CrimeDataProcessing.ipynb 
 Crime2021.csv
+
+#### CanterburySchoolDirectoryProcessing.ipynb
+SchoolsDirectory.csv
+
