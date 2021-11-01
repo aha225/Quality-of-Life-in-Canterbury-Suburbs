@@ -5,10 +5,10 @@ This csv file was downloaded from the New Zealand police victimisation dataset. 
 September 2020 to August 2021 were downloaded. 
 https://www.police.govt.nz/about-us/publications-statistics/data-and-statistics/policedatanz/victimisation-time-and-place
 
-#### PublicHospitals.csv
+#### LegalEntitySummaryPublicHospital.csv
 This file is a list of public hospitals registered in New Zealand. It was downloaded from https://www.health.govt.nz/your-health/certified-providers/public-hospital, which is the ministry of health website. 
 
-#### PrivateHospitals.csv
+#### LegalEntitySummaryNGOHospital.csv
 This file is a list of private hospitals registered in New Zealand. It was downloaded from https://www.health.govt.nz/your-health/certified-providers/private-hospital, which is the ministry of health website. 
 
 #### SchoolsDirectory.csv 
@@ -37,8 +37,8 @@ The following outlines the jupyter notebooks that use the files in this director
 - crash.csv
 
 #### HospitalInitialPreprocessing.ipynb
-- PublicHospitals.csv
-- PrivateHospitals.csv
+- LegalEntitySummaryPublicHospital.csv
+- LegalEntitySummaryNGOHospital.csv
 
 #### HospitalProcessingSecondary.ipynb
 - areaXY
