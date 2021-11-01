@@ -28,3 +28,6 @@ The following outlines the jupyter notebooks that use the files in this director
 - crash.csv
 
 #### HospitalInitialPreprocessing.ipynb
+
+#### HospitalProcessingSecondary.ipynb
+- areaXY
