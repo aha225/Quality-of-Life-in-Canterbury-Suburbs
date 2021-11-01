@@ -20,6 +20,10 @@ This csv is a filtered version of the original, which was download from NZTA's o
 #### areaXY.csv
 This csv contains latitude and longitude for all the are units. It was calculated using average lat longs from the crime raw data.
 
+#### CanterburyHospitalsLocationsFinal.csv
+This csv contains the result of HospitalInitialProcessing, but with lat longs of each hospirtal added manually, hence the inclusion in the raw files folder. We add this as it is needed to do the secondary processing for hospitals.
+
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 The following outlines the jupyter notebooks that use the files in this directory.
 
@@ -33,8 +37,9 @@ The following outlines the jupyter notebooks that use the files in this director
 - crash.csv
 
 #### HospitalInitialPreprocessing.ipynb
--PublicHospitals.csv
--PrivateHospitals.csv
+- PublicHospitals.csv
+- PrivateHospitals.csv
 
 #### HospitalProcessingSecondary.ipynb
 - areaXY
+- CanterburyHospitalsLocationsFinal.csv
