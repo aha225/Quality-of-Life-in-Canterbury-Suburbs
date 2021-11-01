@@ -153,3 +153,49 @@ LATITUDE			Real		Latitude of Hospital
 LONGITUDE			Real		Longitude of Hospital
 HOSPITAL_AREA_UNIT		Character	Area Unit hospital is in
 ------------------------------------------------------------------------------------------------------------------------
+
+
+3. CRASHES
+
+----------------------------------
+Variable               Type 
+----------------------------------
+Area_unit              Character
+Total_crashes          Integer
+Fatalites              Integer
+Serious_injuries       Integer
+Minor_injuries         Integer
+Bicycles_involved      Integer
+Motorcycles_involved   Integer
+Pedestrians_involved   Integer 
+Median_speed_limit     Integer
+----------------------------------
+
+These variables have the following definitions:
+
+Area_unit              is the Area of canterbury this row of data is from. Area unit is
+                       defined by Statistics New Zealand.
+
+Total_crashes          The total crashes that occured in the area unit from 2016 to 2020.
+
+Fatalities             The total fatalies from crashes that occured in the area unit from
+                       2016 to 2020.
+
+Serious_injuries       The total serious injuries from crashes that occured in the area 
+		       unit from 2016 to 2020.
+
+Minor_injuries         The total minor injuries from crashes that occured in the area
+		       unit from 2016 to 2020.
+
+Bicycles_involved      The total bicycles involved in crashes that occured in the area
+		       unit from 2016 to 2020.
+
+
+Motorcycles_involved   The total motorcycles involved in crashes that occured in the area
+		       unit from 2016 to 2020.
+
+Pedestrians_invovled   The total pedestrians involved in crashes that occured in the area
+		       unit from 2016 to 2020.
+
+Median_speed_limit     The median speed limit in the area unit based on the speed limits
+                       recorded at crashes in the area unit.
